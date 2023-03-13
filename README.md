@@ -84,3 +84,17 @@ Step 4: Setting up Active Directory
   - Log back into DC-1 as user: mydomain.com\labuser
 </p>
 <br />
+<hr>
+
+<p>
+<img src="https://i.imgur.com/n5jZdaQ.png" height="80%" width="80%" alt="AD Set Up"/>
+</p>
+<p>
+ Step 5. Creating Admin and Normal User Accounts in AD 
+  
+  - Click start menu and look up Active Directory Users and Computers (ADUC)
+  - Create and take notes of names and passwords
+    - an Organizational Unit (OU) called “_EMPLOYEES” 
+    - a new OU named “_ADMINS”
+    - a new employee named “Jane Doe” with the username of “jane_admin”
+   - Select "Password never expires"
