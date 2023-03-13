@@ -122,7 +122,7 @@ Step 4: Setting up Active Directory
 <hr>
 
 <p>
-<img src="https://i.imgur.com/fmcc1ZY.png" height="40%" width="40%" alt="Join Client-1 to Domain"/><img src="https://i.imgur.com/d02jnLv.png" height="40%" width="40%" alt="Join Client-1 to Domain"/>
+<img src="https://i.imgur.com/ZlgSoc4.png" height="40%" width="40%" alt="Join Client-1 to Domain"/><img src="https://i.imgur.com/wvkaC2e.png" height="40%" width="40%" alt="Join Client-1 to Domain"/>
 </p>
 <p>
   Step 7: Join Client-1 to your domain (mydomain.com)
@@ -181,5 +181,30 @@ Step 8: Setup Remote Desktop for non-administrative users on Client-1
 <hr>
 
 <p>
-  
+ 10. Test by choosing a random name from the accounts
+  - Choose a random account and log out of Client-1
+  - Log back into Client-1 using the random account you picked
+  </p>
+<br />
+<hr>
+<p>
+  <img src="https://i.imgur.com/YlS1NXn.png" height="40%" width="40%" alt="Unlock Account"/><img src="https://i.imgur.com/Y0hOoq7.png" height="40%" width="40%" alt="Reset Password"/>
+</p>
+<p>
+  11. Fixing Common Password Issues
+
+- Log into DC-1 
+- Navigate to: _EMPLOYEES
+- Choose Name and Right Click to find properties
+- Select Account
+- Unlock Account when user is locked out
+  - Check box to Unlock Account
+- Reset Passwords
+  - Right Click Name
+  - Find Drop Down Menu to "Reset Password"
+
+</p>
+<br />
+<hr>
+
   
