@@ -126,3 +126,22 @@ Step 4: Setting up Active Directory
 </p>
 <p>
   Step 7: Join Client-1 to your domain (mydomain.com)
+
+  - Go to Azure portal to set Client 1's DNS settings to DC-1's Private IP address
+    - Open VM Client-1 
+    - Select networking
+    - Click the network interface link
+    - Select DNS Servers on the left 
+    - Choose "Custom" DNS Servers
+    - Enter the DC's private ip address as the DNS server
+    - From Azure, restart Client-1
+  - Login to Client1 as labuser with Remote Desktop and join it to the domain
+    - Right click start menu and selct "System" 
+    - Select "Rename this PC (advanced)" and then Select "Change" 
+    - In domain box type "mydomain.com" and select "OK" 
+  - In Computer Name/Domain Changes box: 
+    -"mydomain.com\jane.admin" with password
+  - Select "OK" and restart when done
+  - Login to DC-1 with Remote Desktop
+  - Go to ADCU and verify Client-1 shows up in "Computers" on the root of the domain 
+    - 
