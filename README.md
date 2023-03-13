@@ -51,11 +51,25 @@ Step 1: Set up Resources in Azure
   - Sort by "Protocol"
   - Enable ICMPv4 rules
 </p>
-<p>
-
-</p>
 <br />
+<hr>
 
+<img src="https://i.imgur.com/9aAxXeI.png" height="80%" width="80%" alt="Install AD"/>
+</p>
+<p>
+Step 3. Install Active Directory
+
+- Login to DC-1 through Remote Desktop
+- Install Active Directory Domain Services: 
+  - In the Server Manager, Select "Add Roles and Features"
+  - Continue- Select Next, Next, Next, 
+  - Select "Active Directory Domain Services"
+  - "Add Features"; "Next"; "Next"; "Next"; "Install"; "Close"
+  
+ 
+  </p>
+<br />
+<hr>
 <p>
 <img src="https://i.imgur.com/RGA5XH7.png" height="50%" width="50%" alt="New Forest Set Up"/><img src="https://i.imgur.com/uGcernN.png" height="50%" width="50%" alt="Promote server to Domain Controller"/>
 </p>
