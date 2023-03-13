@@ -87,7 +87,7 @@ Step 4: Setting up Active Directory
 <hr>
 
 <p>
-<img src="https://i.imgur.com/n5jZdaQ.png" height="80%" width="80%" alt="AD Set Up"/>
+<img src="https://i.imgur.com/8FrDbp0.png" height="80%" width="80%" alt="AD Set Up"/>
 </p>
 <p>
  Step 5. Creating Admin and Normal User Accounts in AD 
