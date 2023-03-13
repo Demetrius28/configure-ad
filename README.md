@@ -40,15 +40,24 @@ Step 1: Set up Resources in Azure
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mNuAgOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  Step 2: Check connectivity between Client and Domain Controller
+  - Log in to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+  - Login to the Domain Controller in the Remote Desktop
+  - Open Windows Defender Firewall
+  - Select "Advanced Settings" on Left
+  - Select "Inbound Rules"
+  - Sort by "Protocol"
+  - Enable ICMPv4 rules
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RGA5XH7.png" height="50%" width="50%" alt="New Forest Set Up"/><img src="https://i.imgur.com/uGcernN.png" height="50%" width="50%" alt="Promote server to Domain Controller"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
