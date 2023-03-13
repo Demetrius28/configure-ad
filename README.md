@@ -153,3 +153,33 @@ Step 4: Setting up Active Directory
 <img src="https://i.imgur.com/DYPq1RL.png" height="80%" width="80%" alt="Set up Non-Admin Users"/>
 </p>
 <p>
+Step 8: Setup Remote Desktop for non-administrative users on Client-1
+
+- Log into Client-1 as mydomain.com\jane_admin and open system properties
+- Click “Remote Desktop”
+- Allow “domain users” access to remote desktop
+- You can now log into Client-1 as a normal, non-administrative user
+ 
+</p>
+<br />
+<hr>
+
+<p>
+  <img src="https://i.imgur.com/O29Taca.png" height="80%" width="80%" alt="Create Random Users"/>
+</p>
+<p>
+ Step 9: Create random users
+  
+  - Click back over to DC-1 
+  - Open Powershell ISE and Run as Administrator
+  - Make a new file
+  - Paste the contents of [this script file](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it (randomly creating new users with "Password1" as their passwords for testing purposes)
+- Open Active Directory and _EMPLOYEES to see the list of random users being added 
+  
+  </p>
+<br />
+<hr>
+
+<p>
+  
+  
