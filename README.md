@@ -144,4 +144,12 @@ Step 4: Setting up Active Directory
   - Select "OK" and restart when done
   - Login to DC-1 with Remote Desktop
   - Go to ADCU and verify Client-1 shows up in "Computers" on the root of the domain 
-    - 
+  
+  
+  </p>
+<br />
+<hr>
+<p>
+<img src="https://i.imgur.com/DYPq1RL.png" height="80%" width="80%" alt="Set up Non-Admin Users"/>
+</p>
+<p>
