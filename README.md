@@ -116,3 +116,13 @@ Step 4: Setting up Active Directory
 - Complete by Selecting "Ok"; "Ok"; "Apply"; "Ok"
 - Close the Remote Desktop connection to DC-1
 - Log back in as mydomain\jane_admin
+</p>
+<br />
+
+<hr>
+
+<p>
+<img src="https://i.imgur.com/fmcc1ZY.png" height="40%" width="40%" alt="Join Client-1 to Domain"/><img src="https://i.imgur.com/d02jnLv.png" height="40%" width="40%" alt="Join Client-1 to Domain"/>
+</p>
+<p>
+  Step 7: Join Client-1 to your domain (mydomain.com)
