@@ -98,3 +98,21 @@ Step 4: Setting up Active Directory
     - a new OU named “_ADMINS”
     - a new employee named “Jane Doe” with the username of “jane_admin”
    - Select "Password never expires"
+
+  </p>
+<br />
+<hr>
+<p>
+<img src="https://i.imgur.com/cO8PUUn.png" height="80%" width="80%" alt="Add Admin"/>
+</p>
+<p>
+  Step 6: Add Jane_admin to the "Domain Admins" Security Group
+  
+- Select "_ADMINS" and right click Jane Doe to select properties
+- Select "Member of" 
+- Add Domain Users: "Domain"
+- Select "Check Names" to open name options
+- Select "Domain Admins"
+- Complete by Selecting "Ok"; "Ok"; "Apply"; "Ok"
+- Close the Remote Desktop connection to DC-1
+- Log back in as mydomain\jane_admin
