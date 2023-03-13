@@ -74,6 +74,13 @@ Step 3. Install Active Directory
 <img src="https://i.imgur.com/JqQMskv.png" height="50%" width="50%" alt="New Forest Set Up"/><img src="https://i.imgur.com/So3aEQ5.png" height="50%" width="50%" alt="Promote server to Domain Controller"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 4: Setting up Active Directory
+  
+  - Click the notification to select: "Promote this DC server to Domain Controller"
+  - Click "Add new forest" 
+  - Choose a password and take note of it
+  - Complete installment- Next, Next, Next, Next, and Install
+  - Allow the server to restart, which will log you out of the VM
+  - Log back into DC-1 as user: mydomain.com\labuser
 </p>
 <br />
